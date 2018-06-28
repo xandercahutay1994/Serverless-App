@@ -6,6 +6,6 @@
  * @param {Object} req Cloud Function request context.
  * @param {Object} res Cloud Function response context.
  */
-exports.f = (req, res) => {
-  res.send('Hello Mah World!');
+exports.f = function(req, res){
+	res.send("Hello Alex World");
 };
