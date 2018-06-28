@@ -7,5 +7,5 @@
  * @param {Object} res Cloud Function response context.
  */
 exports.f = function(req, res){
-	res.send("Hello Alex World");
+	res.send("Welcome to Gea & Alex wonderful world!");
 };
